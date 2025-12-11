@@ -16,12 +16,13 @@ espacio_muestral_moneda = ["cara", "sello"]
 total_casos_moneda = len(espacio_muestral_moneda)
 
 # 1. Probabilidad de que salga "cara"
-
+casos_cara = 1
 
 # 2. Probabilidad de que salga "sello"
-
+caso_sello = 1
 
 # 3. Probabilidad de que salga cualquier resultado (evento seguro)
-
+caso_evento_seguro = total_casos_moneda
 
 # 4. Probabilidad de que salga un resultado imposible (por ejemplo, "canto")
+caso_imposible = 0

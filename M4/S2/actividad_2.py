@@ -17,13 +17,13 @@
 total_bolas = 5 + 3 + 2
 
 # 1. Probabilidad de que sea roja
-
+casos_roja = 5
 
 # 2. Probabilidad de que sea azul
-
+casos_azul = 3
 
 # 3. Probabilidad de que sea verde
-
+casos_verde = 2
 
 # 4. Probabilidad de que NO sea roja
 casos_no_roja = total_bolas - casos_roja
